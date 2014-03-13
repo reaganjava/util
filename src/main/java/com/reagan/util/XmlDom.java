@@ -5,6 +5,7 @@ import java.util.Map;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
+import org.springframework.stereotype.Component;
 
 
 /**
@@ -15,6 +16,7 @@ import org.dom4j.Element;
  * <p>Company:Mopon</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
+@Component("xmlDom")
 public class XmlDom {
 	
 	/**

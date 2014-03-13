@@ -8,6 +8,8 @@ import java.util.Date;
 import java.util.Random;
 import java.util.TimeZone;
 
+import org.springframework.stereotype.Component;
+
 
 /**
  * <p>Description:类型转换 </p>
@@ -17,7 +19,7 @@ import java.util.TimeZone;
  * <p>Company:Mopon</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
-
+@Component("typeFormat")
 public class TypeFormat {
 	
 	private static final char[] r = new char[] { 'Q', 'w', 'E', '8', 'a', 'S',

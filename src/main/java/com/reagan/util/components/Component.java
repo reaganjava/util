@@ -9,7 +9,6 @@ import com.reagan.util.Arith;
 import com.reagan.util.Base64Utils;
 import com.reagan.util.CookieManager;
 import com.reagan.util.KeyGenerater;
-import com.reagan.util.LoggerUtil;
 import com.reagan.util.MD5;
 import com.reagan.util.SignProvider;
 import com.reagan.util.Signaturer;
@@ -56,12 +55,6 @@ public class Component {
 	 * TABLE 名字模糊查询
 	 */
 	public static final String TABLE_NAME = "tableName";
-
-	/**
-	 * 日志记录
-	 */
-	@Autowired
-	protected LoggerUtil loggerUtil;
 
 	/**
 	 * 公钥私钥生成工具

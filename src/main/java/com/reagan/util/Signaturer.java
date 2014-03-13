@@ -6,6 +6,7 @@ import java.security.Signature;
 import java.security.spec.PKCS8EncodedKeySpec;
 
 import org.apache.commons.codec.binary.Base64;
+import org.springframework.stereotype.Component;
 
 
 /**
@@ -17,6 +18,7 @@ import org.apache.commons.codec.binary.Base64;
  * <p>Company:Mopon</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
+@Component("signaturer")
 public class Signaturer {
 	
 	/**
