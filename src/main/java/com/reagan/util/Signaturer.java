@@ -18,7 +18,6 @@ import org.springframework.stereotype.Component;
  * <p>Company:Mopon</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
-@Component("signaturer")
 public class Signaturer {
 	
 	/**

@@ -2,8 +2,6 @@ package com.reagan.util;
 
 import java.math.BigDecimal;
 
-import org.springframework.stereotype.Component;
-
 
 
 /**
@@ -16,7 +14,6 @@ import org.springframework.stereotype.Component;
  * <p>Company:Mopon</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
-@Component("arith")
 public class Arith {
 
 	/**

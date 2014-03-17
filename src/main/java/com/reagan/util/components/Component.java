@@ -57,54 +57,11 @@ public class Component {
 	public static final String TABLE_NAME = "tableName";
 
 	/**
-	 * 公钥私钥生成工具
-	 */
-	@Autowired
-	protected KeyGenerater keyGenerater;
-
-	/**
-	 * BASE64解密加密工具
-	 */
-	@Autowired
-	protected Base64Utils base64Utils;
-
-	/**
 	 * MD5加密工具
 	 */
 	@Autowired
 	protected MD5 md5;
 
-	/**
-	 * 数字签名
-	 */
-	@Autowired
-	protected Signaturer signaturer;
-
-	/**
-	 * 数字签名
-	 */
-	@Autowired
-	protected SignProvider signProvider;
-
-	/**
-	 * 货币包装
-	 */
-	@Autowired
-	protected Arith arith;
-
-	/**
-	 * 类型转换
-	 */
-	@Autowired
-	protected TypeFormat typeFormat;
-	
-	/**
-	 * 字段验证
-	 */
-	@Autowired
-	protected ValidatorUtil validatorUtil;
-	
-	
 	/**
 	 * XML生成对象
 	 */

@@ -2,7 +2,6 @@ package com.reagan.util;
 
 import java.io.UnsupportedEncodingException;
 
-import org.springframework.stereotype.Component;
 
 /**
  * <p>Description: BASE64加密类</p>
@@ -12,7 +11,6 @@ import org.springframework.stereotype.Component;
  * <p>Company:Mopon</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
-@Component("base64Utils")
 public class Base64Utils {
 	/**
 	 * 编码字符串
