@@ -57,12 +57,6 @@ public class Component {
 	public static final String TABLE_NAME = "tableName";
 
 	/**
-	 * MD5加密工具
-	 */
-	@Autowired
-	protected MD5 md5;
-
-	/**
 	 * XML生成对象
 	 */
 	@Autowired

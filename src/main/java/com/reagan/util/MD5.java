@@ -2,12 +2,10 @@ package com.reagan.util;
 
 import java.util.Random;
 
-import org.springframework.stereotype.Component;
-
 /*************************************************
  * md5 类实现了RSA Data Security, Inc.在提交给IETF 的RFC1321中的MD5 message-digest 算法。
  *************************************************/
-@Component("md5")
+
 public class MD5 {
 	/*
 	 * 下面这些S11-S44实际上是一个4*4的矩阵，在原始的C实现中是用#define 实现的， 这里把它们实现成为static
