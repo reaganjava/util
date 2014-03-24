@@ -47,6 +47,16 @@ public class Component {
 	public static final boolean POST = false;
 	
 	/**
+	 * SESSION 管理员ID键
+	 */
+	public static final String SESSION_ADMIN_ID = "ADMIN_ID";
+	
+	/**
+	 * SESSION 管理员信息键
+	 */
+	public static final String SESSION_ADMIN_INFO = "ADMIN_INFO";
+	
+	/**
 	 * TABLE 时间区间查询方式
 	 */
 	public static final String TABLE_CREADATE ="create_date";
