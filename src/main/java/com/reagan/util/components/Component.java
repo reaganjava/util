@@ -54,7 +54,7 @@ public class Component {
 	/**
 	 * SESSION 管理员信息键
 	 */
-	public static final String SESSION_ADMIN_INFO = "ADMIN_INFO";
+	public static final String SESSION_ADMIN_NAME = "ADMIN_NAME";
 	
 	/**
 	 * TABLE 时间区间查询方式
