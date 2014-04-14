@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * @date 2013年8月15日
  * @author tongbiao
  * @version 1.0
- * <p>Company:Mopon</p>
+ * <p>Company:reagan</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
 public class SignProvider {

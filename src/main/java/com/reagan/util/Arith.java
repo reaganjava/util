@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  * @date 2013年8月13日
  * @author tongbiao
  * @version 1.0
- * <p>Company:Mopon</p>
+ * <p>Company:reagan</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
 public class Arith {

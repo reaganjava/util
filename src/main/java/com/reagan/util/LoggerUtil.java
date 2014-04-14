@@ -11,7 +11,7 @@ import org.apache.log4j.Logger;
  * @author reagan
  * @version 1.0
  *          <p>
- *          Company:Mopon
+ *          Company:reagan
  *          </p>
  *          <p>
  *          Copyright:Copyright(c)2013

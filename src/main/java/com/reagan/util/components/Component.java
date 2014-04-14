@@ -21,7 +21,7 @@ import com.reagan.util.XmlDom;
  * @date 2013年8月23日
  * @author reagan
  * @version 1.0
- * <p>Company:Mopon</p>
+ * <p>Company:reagan</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
 public class Component {
@@ -56,6 +56,9 @@ public class Component {
 	 */
 	public static final String SESSION_ADMIN_NAME = "ADMIN_NAME";
 	
+	
+	public static final String SESSION_ADMIN_MENU_ITEM_LIST = "ADMIN_MENU_ITEM_LIST";
+	
 	/**
 	 * TABLE 时间区间查询方式
 	 */
@@ -65,6 +68,10 @@ public class Component {
 	 * TABLE 名字模糊查询
 	 */
 	public static final String TABLE_NAME = "tableName";
+	
+	
+	public  static final String JSONDATA = "jsonData";
+	
 
 	/**
 	 * XML生成对象

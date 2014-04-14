@@ -19,7 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @date 2013年10月17日
  * @author tongbiao
  * @version 1.0
- * <p>Company:Mopon</p>
+ * <p>Company:reagan</p>
  * <p>Copyright:Copyright(c)2013</p>
  */
 @Component
