@@ -1,19 +1,18 @@
 package com.reagan.util.components;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.UUID;
+
+
+
+
+
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.reagan.util.Arith;
-import com.reagan.util.Base64Utils;
 import com.reagan.util.CookieManager;
-import com.reagan.util.KeyGenerater;
-import com.reagan.util.MD5;
-import com.reagan.util.SignProvider;
-import com.reagan.util.Signaturer;
-import com.reagan.util.TypeFormat;
-import com.reagan.util.ValidatorUtil;
 import com.reagan.util.XmlDom;
 
 /**
@@ -59,6 +58,8 @@ public class Component {
 	
 	public static final String SESSION_ADMIN_MENU_ITEM_LIST = "ADMIN_MENU_ITEM_LIST";
 	
+	public static final String SESSION_ADMIN_COMPANY_ID = "ADMIN_COMPANY_ID";
+	
 	/**
 	 * TABLE 时间区间查询方式
 	 */
@@ -71,7 +72,6 @@ public class Component {
 	
 	
 	public  static final String JSONDATA = "jsonData";
-	
 
 	/**
 	 * XML生成对象
@@ -98,6 +98,15 @@ public class Component {
 	public synchronized String getUUIDPrimarykey() {
 		return UUID.randomUUID().toString();
 	}
-
 	
+	public String urlDecoder(String value) {
+		try {
+			value = URLDecoder.decode(value, "UTF-8");
+			return new String(value.getBytes("ISO-8859-1"));
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
 }
