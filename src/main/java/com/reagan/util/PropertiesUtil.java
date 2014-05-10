@@ -26,7 +26,9 @@ public class PropertiesUtil {
 	public static void init(String configName) {
 		try {
 			proper = new Properties();
-			FileInputStream fin = new FileInputStream(configName);
+			String path = PropertiesUtil.class.getResource("/").getPath();                                  
+			String websiteUrl = path.replace("classes","");
+			FileInputStream fin = new FileInputStream(websiteUrl + "config/" + configName);
 			proper.load(fin);
 		} catch (IOException e) {
 			e.printStackTrace();
