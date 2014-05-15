@@ -3,9 +3,6 @@ package com.reagan.util;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.stereotype.Component;
-
-
 import net.sf.json.JSON;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
