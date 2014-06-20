@@ -363,6 +363,7 @@ public class MD5 {
 	public static void main(String args[]) {
 		MD5 md5 = new MD5();
 		String md5str = md5.getMD5ofStr("123456");
+		System.out.println(md5str);
 		Random random = new Random();
 		byte[] chars = new byte[10];
 		for(int i = 0; i < 10; i++) {

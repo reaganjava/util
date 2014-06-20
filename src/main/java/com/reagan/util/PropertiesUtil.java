@@ -44,5 +44,10 @@ public class PropertiesUtil {
 	public static String getProperty(String key) {
 		return proper.getProperty(key);
 	}
+	
+	
+	public static void main(String[] args) {
+		PropertiesUtil.init("sysconfig.properties");
+	}
 
 }

@@ -102,12 +102,12 @@ public class JSONTools<T> {
 	 * 方法用途: 通过JSON创建对象List<br>
 	 * 实现步骤: <br>
 	 * @param json 字符串数据
-	 * @param clazz 对应的类
+	 * @param class1 对应的类
 	 * @return List
 	 */
-	public List<T> readList(String json, Class<T> clazz) {
+	public List<T> readList(String json, Class<List> class1) {
 		JSONArray jsonArray = JSONArray.fromObject(json);
-		return (List<T>) JSONArray.toCollection(jsonArray, clazz);
+		return (List<T>) JSONArray.toCollection(jsonArray, class1);
 	}
 
 }
